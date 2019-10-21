@@ -1,0 +1,54 @@
+/*content开始*/
+.content .warp .layui-card-header {
+    height: 55px;
+    font-size: 13px;
+    line-height: 55px;
+}
+
+.content .warp .maxtit {
+    font-size: 24px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    background-color: #0089e2;
+}
+
+.content .warp form .layui-card-body {
+    padding: 20px 50px;
+}
+
+.content .warp form .layui-card-body .layui-form-label {
+    text-align: left;
+}
+
+.content .warp form .contact .userimg {
+    text-align: center;
+
+}
+
+.content .warp form .contact .userimg img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/*文件上传样式*/
+#label1 {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    min-width: 800px;
+    border: 1px solid #e6e6e6;
+}
+#label1 input:first-child{
+    padding: 0 3px;
+    margin-right: 5px;
+}
+#label1 input:last-child {
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}

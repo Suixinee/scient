@@ -1,0 +1,176 @@
+/*content开始*/
+.content {
+}
+
+.content .lcot {
+    min-height: 630px;
+}
+.content .lcot> ul{
+    padding: 10px 25px;
+    background-color: #fff;
+}
+.content .lcot> ul li{
+    height: 40px;
+    line-height: 40px;
+    color: #7f7f7f;
+}
+.content .lcot> ul li:nth-child(1){
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+}.content .lcot> ul li:nth-child(n+2){
+    margin-top: 10px;
+ }
+
+.content .lcot> ul li:nth-child(2) i{
+    font-style: normal;
+    color: #0089e2;
+}
+.content .lcot> ul li:nth-child(2) span:nth-child(2){
+    margin-left: 30px;
+}
+
+.content .lcot> ul li:nth-child(3) span{
+    margin: 0 20px;
+}
+.content .lcot> ul li:nth-child(3) span:first-child{
+    margin-left: 0;
+}
+.content .lcot .pmgressbar{
+    margin: 20px 0;
+}
+.content .lcot .qiqiaodes{
+    background-color: #fff;
+    padding: 20px 15px
+}
+.content .lcot .qiqiaodes h3{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+}
+/*步骤条开始*/
+#steps{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#steps .step-item {
+    display: inline-block;
+    line-height: 26px;
+    position: relative;
+    /*background: #ffffff;*/
+}
+
+#steps .step-item-tail {
+    width: 100%;
+    padding: 0 10px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+#steps .step-item-tail i {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    vertical-align: top;
+    background: #c2c2c2;
+    position: relative;
+}
+#steps .step-item-tail-done {
+    background: #d7d7d7 !important;
+}
+
+#steps .step-item-head {
+    position: relative;
+    display: inline-block;
+    /*height: 26px;*/
+    /*width: 26px;*/
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    vertical-align: top;
+    color: #009688;
+    /*border: 1px solid #009688;*/
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+#steps .step-item-head.step-item-head-active {
+    background: #d7d7d7;
+    color: #ffffff;
+}
+
+#steps .step-item-main {
+    /*background: #ffffff;*/
+    display: block;
+    position: relative;
+    text-align: center;
+    left: -58px;
+}
+
+#steps .step-item-main-title {
+    font-weight: bolder;
+    color: #555555;
+    font-size: 12px;
+}
+#steps .step-item-main-desc {
+    color: #aaaaaa;
+    font-size: 12px;
+}
+/*步骤条结束*/
+.content .lcot .pmgressbar ul li{
+    float: left;
+}
+.content .rcot {
+    background-color: #ffffff;
+    /*padding: 10px;*/
+    min-height: 630px;
+}
+
+
+.content .rcot .sidetit{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.content .rcot .sidetit span {
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.content .rcot .sidetit span:first-child {
+    display: inline-block;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #0089e2;
+}
+
+.content .rcot .sidebox {
+    margin-top: 20px;
+    padding: 0 20px;
+    /*padding: 0 15px;*/
+}
+
+.content .rcot .sidebox img {
+    width: 248px;
+    height: 234px;
+
+}
+
+.content .rcot .sidebox p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.content .rcot .sidebox .p1 {
+    font-size: 16px;
+
+}
+
+.content .rcot .sidebox .p2 button {
+    background-color: #fff;
+    border: 1px solid #0089e2;
+    color: #0089e2;
+    height: 30px;
+    line-height: 30px;
+}

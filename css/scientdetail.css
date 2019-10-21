@@ -1,0 +1,92 @@
+/*content开始*/
+.content {
+}
+
+.content .lcot {
+    background-color: #ffffff;
+    padding: 10px 25px;
+    min-height: 630px;
+}
+
+.content .rcot {
+    background-color: #ffffff;
+    /*padding: 10px;*/
+    min-height: 630px;
+}
+
+.content .lcot .textimg .layui-carousel .carousel-item .carimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .lcot .textimg .textdetail ul {
+    margin-left: 20px;
+}
+
+.content .lcot .textimg .textdetail ul li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.content .lcot .textimg .textdetail ul li:first-child {
+    margin: 10px 0;
+    font-size: 16px;
+
+}
+
+.content .lcot .textimg .textdetail ul li button {
+    background-color: #0089e2;
+}
+
+.content .lcot .text1 {
+    margin: 20px 0;
+    color: #333333;
+}
+
+.content .rcot .sidetit{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.content .rcot .sidetit span {
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.content .rcot .sidetit span:first-child {
+    display: inline-block;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #0089e2;
+}
+
+.content .rcot .sidebox {
+    margin-top: 20px;
+    padding: 0 20px;
+    /*padding: 0 15px;*/
+}
+
+.content .rcot .sidebox img {
+    width: 248px;
+    height: 234px;
+
+}
+
+.content .rcot .sidebox p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.content .rcot .sidebox .p1 {
+    font-size: 16px;
+
+}
+
+.content .rcot .sidebox .p2 button {
+    background-color: #fff;
+    border: 1px solid #0089e2;
+    color: #0089e2;
+    height: 30px;
+    line-height: 30px;
+}

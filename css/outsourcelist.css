@@ -1,0 +1,199 @@
+.header .warp .searchbox {
+    text-align: center;
+
+}
+
+.header .warp .searchbox .searchipt {
+    padding: 20px 0;
+}
+
+.header .warp .searchbox .searchipt form {
+    width: 600px;
+    height: 44px;
+    display: inline-block;
+    border: 2px solid #0089e2;
+}
+
+.header .warp .searchbox .searchipt form input {
+    display: inline-block;
+    height: 44px;
+    border: none;
+
+}
+
+.header .warp .searchbox .searchipt form input:first-child {
+    width: 490px;
+    padding-left: 15px;
+    float: left;
+}
+
+.header .warp .searchbox .searchipt form input:nth-child(2) {
+    width: 92px;
+    background-color: #0089e2;
+    color: #ffffff;
+    float: right;
+}
+
+.header .warp .searchbox .searchipt button {
+    height: 48px;
+    width: 92px;
+    background-color: #0089e2;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.content .warp {
+    background-color: #fff;
+}
+
+.content .cate-show {
+    /*padding: 20px 15px;*/
+    padding: 20px 0;
+    color: #7f7f7f7f;
+}
+
+.content .catit {
+    width: 80px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+.content .cate-cont {
+    float: right;
+    width: 1100px;
+    font-size: 12px;
+}
+
+.content .cate-cont ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 15px;
+}
+
+.content .cate-cont ul li:first-child {
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.content .cate-cont ul li:first-child a {
+    color: #0089e2;
+
+}
+
+.content .cate-cont ul li a {
+    color: #555555;
+}
+
+.content .cate-cont ul li a:hover {
+    color: #0089e2;
+}
+
+.content .catelist-cot {
+    font-size: 12px;
+}
+
+.content .catelist-status {
+    /*padding: 20px 0;*/
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.content .catelist-status span {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin-right: 15px;
+    color: #2b9ce7;
+    border-right: 1px solid #eeeeee;
+}
+
+.content .catelist-status ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.content .catelist-status ul li:first-child {
+    margin-left: 0;
+}
+
+.content .catelist-status ul li a:hover {
+    color: #2b9ce7;
+}
+
+/*分页开始*/
+#pager {
+    text-align: center;
+}
+
+#pager a {
+    color: #666666;
+
+}
+
+/*--选中的样式--*/
+.layui-laypage-em {
+    border-radius: 7px;
+}
+
+.layui-laypage-limits select {
+    border-radius: 7px;
+
+}
+
+.layui-laypage-skip input, .layui-laypage-skip button {
+    border-radius: 7px;
+}
+
+#pager .layui-laypage > a, #pager .layui-laypage > span {
+    border-radius: 7px;
+    margin: 0 5px;
+}
+
+.qiqiaobox {
+    margin: 20px 0;
+    position: relative;
+}
+
+.qiqiaobox:hover {
+    box-shadow: 0 -2px 10px 5px #eeeeee ,0 2px 10px 5px #eeeeee;
+
+}
+
+.qiqiaobox ul {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.qiqiaobox ul li {
+    height: 40px;
+    line-height: 40px;
+}
+
+.qiqiaobox ul li span:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.qiqiaobox ul li:first-child span:nth-child(n+2) {
+    margin: 0 10px;
+}
+
+.qiqiaobox ul li:nth-child(2) {
+    font-size: 20px;
+    color: #0089e2;
+}
+
+.qiqiaobox ul li:nth-child(3) {
+    color: #333333;
+}
+
+.qiqiaobox button {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    z-index: 999;
+}

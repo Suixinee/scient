@@ -1,0 +1,137 @@
+/* 公共样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.warp {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: 微软雅黑;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 头部开始 */
+.header {
+    background-color: #ffffff;
+}
+
+/*.header .warp {*/
+    /*!* height: 5.8125rem; *!*/
+    /*!* line-height: 5.8125rem; *!*/
+/*}*/
+
+.header .warp .logo {
+    float: left;
+    height: 60px;
+}
+
+.header .warp .layui-nav {
+    float: right;
+    background-color: #FFFFFF;
+    margin: auto 0;
+}
+
+.header .warp .layui-nav li {
+}
+
+.header .warp .layui-nav li > a {
+    color: #333333;
+}
+
+.childbox {
+    position: absolute;
+    width: 600px;
+    left: -245px;
+    top: 60px;
+    color: #000;
+}
+
+.childbox .nvson .navson-head {
+    height: 20px;
+    line-height: 20px;
+    /*background-color: palegreen;*/
+}
+
+.childbox .nvson .navson-head span {
+    height: 20px;
+
+}
+
+.childbox .nvson .navson-head .flag {
+    display: inline-block;
+    width: 5px;
+    margin: 0 5px;
+    background-color: blue;
+}
+
+/*.childbox .nvson .navson-head .nvson-tit{*/
+/*display: inline-block;*/
+/*line-height: 20px;*/
+
+/*}*/
+
+.childbox .nvson ul {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.childbox .nvson ul li {
+    float: left;
+}
+
+.childbox .nvson ul li a {
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.childbox .nvson ul li a:hover {
+    color: #0089e2;
+    background: none;
+}
+/*导航条开始*/
+.crumbs .warp >span{
+    display: block;
+    margin:30px;
+
+}
+
+
+
+/*底部开始*/
+.footer {
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #131420;
+    color: #ffffff;
+}
+.footer ul{
+    margin: 20px auto;
+    width: max-content;
+}
+.footer ul li{
+    float: left;
+    margin-left: 20px;
+}
+.footer ul li a{
+    color: #ffffff;
+}
+.footer p{
+    text-align: center;
+    margin: 20px 0;
+}
